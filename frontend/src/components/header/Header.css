@@ -1,0 +1,220 @@
+.header {
+    height: auto;
+    width: 100vw;
+    background: #141a29;
+}
+
+.hader-container {
+    height: 95px;
+    background: #fff;
+}
+
+.hader-container .top-serch-row {
+    height: 55px;
+    width: 100vw;
+    background-color: #141a29;
+    overflow: hidden;
+}
+
+.hader-container .top-navlist-elem {
+    height: 40px;
+    width: 100vw;
+    background: #0e314e;
+}
+
+.top-serch-row ul,
+.top-navlist-elem ul {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.top-serch-row ul{
+    background: #141a29;
+    display: flex;
+    padding: 0 5px 0 5px;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    
+}
+
+.top-serch-row ul li a{
+    color: white;
+    text-decoration: none;
+}
+main button, .two-second-page button, .three-third-page button{
+    background: orange;
+    border: whitesmoke;
+    padding: 5px 3px;
+    cursor: pointer;
+}
+a:hover{
+    color: tomato;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.li-logo img{
+    height: 40px;
+    color: white;
+} 
+ .top-navlist-elem ul{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 8px;
+    font-size: 12px;
+    background: rgb(14, 49, 78); 
+} 
+.top-navlist-elem ul li a{
+    color: white;
+    text-decoration: none;
+}
+.top-search-input{
+    width: 45%;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    outline: none;
+    justify-content: space-between;
+}
+.top-search-input button{
+    width: 10%;
+    height: 35px;
+    scale: 1.18;
+}
+.insert-input{
+    width: 80%;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.fa-search{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    padding: 10px;
+    background: rgb(245, 190, 89);
+}
+.top-navlist-elem{
+    font-weight: 600;
+  margin-right: -5px;
+  overflow: hidden;
+}
+
+.li-country img{
+    width: 25px;
+}
+.container li:hover{
+    border: 2px solid white;
+    padding: 1px;
+    margin: -1.2px;
+}
+main{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(95, 9, 9, 0.6),rgba(0,0,0,0.5));
+}
+.visual-site{
+    width: 100%;
+    height: 53vh;
+    z-index: 10;
+    background-image: url(../../../public/game.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fa-chevron-left, .fa-chevron-right {
+    position: absolute;
+    width: 9px;
+    height: 33vh;
+    color: white;
+    display: flex;
+    padding-top: 22vh;
+    text-align: center;
+    justify-content: center;
+    font-size: 4px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5));
+}
+.fa-chevron-left:hover, .fa-chevron-right:hover {
+    border: 1px solid white;
+}
+.fa-chevron-right{
+    top: 13vh;
+    right: 0;
+}
+.items-grid-elements{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    font-size: 2px;
+    margin-top: 2vh;
+    padding: 0 2px;
+}
+.items-grid-elements a{
+    text-decoration: none;
+}
+.item-elm-first, .item-elm-second, .item-elm-third , .item-elm-fourth{
+    position: relative;
+    width: 24%;
+    box-shadow:1px 2px 3px;
+    padding: 2px 2px;
+    background: rgb(236, 236, 236);
+    height: 54vh;
+    border-radius: 5px;
+}
+.item-elm-first img, .item-elm-second img, .item-elm-third img, .item-elm-fourth img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1px;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: .1px;
+    justify-content: center;
+    height: 35vh;
+    width: 90%;
+}
+.items-grid-elements img{
+    width: 90%;
+    height: 70%;
+}
+.two-second-page{
+    width: 100vw;
+    height:auto;
+    background: rgb(231, 234, 238);
+}
+.three-third-page{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(226, 236, 255);
+}
+#cart-count{
+    width: 30px!important;
+    background-color: transparent;
+    border: none;
+    transform: translate(-10px,-10px);
+    z-index: 12;
+    overflow: visible;
+    color: rgb(251, 165, 4);
+    font-weight: 900;
+    font-size: larger;
+} 
